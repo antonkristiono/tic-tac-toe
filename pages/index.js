@@ -1,12 +1,12 @@
 import React from 'react';
 import Game from '../components/Game';
-
+import Layout from '../components/Layout';
 
 const Home = () => {
   return(
-    <>
-    <Game/>
-    </>
+    <Layout>
+      <Game/>
+    </Layout>
   )
 }
 
